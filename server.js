@@ -48,8 +48,7 @@ app.post('/api/notes', (req, res) => {
             );
         }
     });
-}
-);
+});
 
 app.get('/api/notes', (req, res) => {
     fs.readFile('./db/db.json', (err, data) => {
@@ -64,4 +63,3 @@ app.get('/api/notes', (req, res) => {
 app.listen(PORT, () =>
     console.log(`App listening at http://localhost:${PORT}`)
 );
-// 
