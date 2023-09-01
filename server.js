@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const uniqueID = require('uuid'); // NPM Used to generate random ID number for note entry
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const fs = require('fs');
 const noteArray = require('./db/db.json');
 app.use(express.static('public'));
