@@ -33,7 +33,7 @@ By visiting the provided link, this application can be used by clicking the "Get
 ## Contributions
 Starting code provided by the Full Stack Bootcamp.
 
-Structure of the `app.post` modeled after activity 13-Ins_Data-Persistence in the EXPRESS module of the Full Stack Bootcamp gitlab.
+Structure of the `app.post` modeled after activity 19-Ins_Data-Persistence in the EXPRESS module of the Full Stack Bootcamp gitlab.
 
 The NPM of [uuid](https://www.npmjs.com/package/uuid?activeTab=readme) used for the creation of the random ID value used in the note objects.
 
